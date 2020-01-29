@@ -1,4 +1,4 @@
-//string
+//strings
 let myName = "Zein Atris";
 let myMajor = "Web Developer";
 let myFunfact = "Creating websites";
@@ -25,9 +25,12 @@ while( counter > 0 )
     console.log("Counter:", counter);
 }
 
-//if stament
+//if/else statement
 let name = "Mr.Banks"
 
 if (name == "Mr.Banks"){
-    console.log("Welcome back professor")
+    console.log("Welcome back professor!")
+}
+else {
+    console.log("Welcome",myName,"what is your major?",myMajor)
 }
