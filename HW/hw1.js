@@ -1,4 +1,14 @@
-//strings
+/**
+ * HW 1 focuses on variables and control structures
+ *
+ * @category    HW 1
+ * @author      Chad Banks <crbanks1@hfcc.edu>
+ * @author      Zein Atris <zhatris@hawkmail.hfcc.edu>
+ * @date        2020.01.30
+ * @grade       10 / 10
+ */
+
+ //strings
 let myName = "Zein Atris";
 let myMajor = "Web Developer";
 let myFunfact = "Creating websites";
