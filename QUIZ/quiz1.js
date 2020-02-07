@@ -35,9 +35,7 @@ for( let i in c )
 while( favInt <= -42)
 {
     favInt--;
-    console.log("ZERO DETECTED!", favInt)
-}
-if (favInt === 0){
+if (favInt === 0)
     console.error("ZERO DETECTED!")
 }
 
