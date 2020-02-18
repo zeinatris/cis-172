@@ -1,3 +1,9 @@
+/**
+ * @grade   : 10 / 10
+ * @notes   : There is a bug after you first click the equal key, it does not work a second time.
+ *              Do not add the = character to the display, and it should fix it.
+ */
+
 function number(num){
     let a = document.getElementById('input');
     switch(num){
