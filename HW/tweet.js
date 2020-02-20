@@ -1,6 +1,6 @@
 let tweetCollection = [];
 
-let idbtn = document.getElementById("id");
+let idBtn = document.getElementById("id");
 let messageBtn = document.getElementById("message");
 let likeBtn = document.getElementById("likes");
 let shareBtn = document.getElementById("shares");
@@ -11,7 +11,7 @@ function tweetBuilder() {
     let d = new Date();
     let tweet =
         {
-            id: idbtn.value,
+            id: idBtn.value,
             message: messageBtn.value,
             likes: likeBtn.value,
             shares: shareBtn.value,
