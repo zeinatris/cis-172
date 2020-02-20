@@ -1,26 +1,30 @@
-var tweetCollection = [tweet];
+let tweetCollection = [];
 
 let idbtn = document.getElementById("id");
-let messagebtn = document.getElementById("message");
-let likebtn = document.getElementById("likes");
-let sharebtn = document.getElementById("shares");
-let commentbtn = document.getElementById("comments");
-let userNamebtn = document.getElementById("username");
-
-function tweetBuilder(){
+let messageBtn = document.getElementById("message");
+let likeBtn = document.getElementById("likes");
+let shareBtn = document.getElementById("shares");
+let commentBtn = document.getElementById("comments");
+let userNameBtn = document.getElementById("username");
+let du = document.getElementById("dump");
+function tweetBuilder() {
     let d = new Date();
     let tweet =
-    {
-    id:         idbtn.value,
-    message:    messagebtn.value,
-    likes:       likebtn.value,
-    shares:      sharebtn.value,
-    comment:    commentbtn.value,
-    userName:   userNamebtn.value,
-    };
+        {
+            id: idbtn.value,
+            message: messageBtn.value,
+            likes: likeBtn.value,
+            shares: shareBtn.value,
+            comment: commentBtn.value,
+            userName: userNameBtn.value,
+        };
 
     tweetCollection.push(tweet);
-    console.log("tweet", tweetCollection,d);
+    console.log("tweet", tweetCollection, d);
+
 
 }
 
+function dump() {
+    console.log(tweetCollection);
+}
