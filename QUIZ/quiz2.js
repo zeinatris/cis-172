@@ -5,12 +5,13 @@
  * @author      Chad Banks <crbanks1@hfcc.edu>
  * @author      Zein Atris <zhatris@hawkmail.hfcc.edu>
  * @date        2020.02.13
- * @link
-    */
+ * @grade       10 / 10
+ **/
+
 // 1. Define a function that take two arguments, you can choose the name.
 //      The function should them multiply them together and return the result
 function multiply(price, shipping) {
-    console.log("I DID IT!");
+    console.log("I DID IT!"); // Excellent work!
     return price*shipping;
 }
 
@@ -19,7 +20,7 @@ function multiply(price, shipping) {
 
 
 // 3. Write a function that displays a welcome message to the user in the dev console or anywhere on the page.
-    function welcome ()
+function welcome ()
 {
     console.log("Welcome");
 };
