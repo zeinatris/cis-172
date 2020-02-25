@@ -5,8 +5,9 @@
  * @author      Chad Banks <crbanks1@hfcc.edu>
  * @author      Zein Atris <zhatris@hawkmail.hfcc.edu>
  * @date        2020.02.20
- * @link
-    */
+ * @grade       11 / 10
+ * */
+
 // 1. Define an object called SiteUser.
 let siteUser = {};
 
@@ -26,13 +27,14 @@ let SiteUser =
 // 3. Add a function to the SiteUser object called addVisit.
 //      This function should increase the Visits property by 1.
         addVisit: function (){
-            SiteUser.visits = SiteUser.visits ++;
+            SiteUser.Visits = SiteUser.Visits + 1;
         },
-// B. Add a function to the SiteUser object called addItemToCart.
+// B. 1/2 
+//      Add a function to the SiteUser object called addItemToCart.
 //      This function should take an argument called item.
 //      This function should then add that item to the cart array.
         addItemToCart: function (item) {
-            SiteUser.addItemToCart.push(item);
+            SiteUser.Cart.push(item);
         }
     };
 
