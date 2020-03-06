@@ -19,7 +19,7 @@ function tweetBuilder() {
             likes: likeBtn.value,
             shares: shareBtn.value,
             comment: commentBtn.value,
-            userName: userNameBtn.value,
+            userName: userNameBtn.value
         };
 
     tweetCollection.push(tweet);
