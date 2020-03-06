@@ -5,7 +5,7 @@
  * @author      Chad Banks <crbanks1@hfcc.edu>
  * @author      Zein Atris <zhatris@hawkmail.hfcc.edu>
  * @date        2020.02.27
- * @grade
+ * @grade       9.5 / 10
  */
 // 1. Use the JS to get my footer into a variable called foot.
 let foot = document.getElementById("myFoot");
@@ -16,6 +16,7 @@ foot.addEventListener("click", foot.handleClick );
 // 3. Store my title element in a variable called myTitle.
 let myTitle = document.getElementsByTagName("title");
 
+// 2.5 / 3
 // 4. Use JS to change my Title and Footer to day "This Class rocks!"
 document.title = "This Class rocks!";
-document.footer = "This Class rocks!";
+foot = "This Class rocks!";
