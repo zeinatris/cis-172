@@ -10,5 +10,5 @@ function submitHandler () {
         };
         handNewButton.push(submit);
     console.log("submit",handNewButton)
-    submit.sendNewPostToApi()
+    Blueit.sendNewPostToApi()
 }
