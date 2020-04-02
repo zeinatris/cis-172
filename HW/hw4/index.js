@@ -3,42 +3,38 @@ let PageManager = {
     init: function() {
 
         let btn1 = document.getElementById("btn1");
-        btn1.addEventListener("click", PageManager.functionOne);
+        btn1.addEventListener("click", PageManager.firstFunction);
 
         let btn2 = document.getElementById("btn2");
-        btn2.addEventListener("click", PageManager.functionTwo);
+        btn2.addEventListener("click", PageManager.secondFunction);
 
         let btn3 = document.getElementById("btn3");
-        btn3.addEventListener("click", PageManager.functionThree);
+        btn3.addEventListener("click", PageManager.thirdFunction);
 
         let Color = document.getElementById("color");
-        Color.addEventListener('change', PageManager.colors);
+        Color.addEventListener('change', PageManager.colorChange);
     },
 
-     functionOne : function (event)
+    firstFunction: function ()
     {
-        console.log("event", event);
-        let text = document.getElementById("a1")
-        let newText = text.value;
         let h = document.getElementById("h");
-        h.innerHTML = newText;
+        let a1 = document.getElementById("a1");
+        PageManager.h = a1.value;
     },
 
-    functionTwo : function (event)
+    secondFunction: function ()
     {
-        console.log("myDiv", event);
-        let a2 = document.getElementById("a2")
-        let newText = a2.value;
         let myDiv = document.getElementById("myDiv");
-        myDiv.innerHTML = newText;
+        let a2 = document.getElementById("a2");
+        PageManager.btn2 = myDiv + a2.value;
     },
 
-    functionThree : function three()
+    thirdFunction : function three()
     {
         console.log(PageManager);
     },
 
-    colors: function()
+    colorChange: function()
     {
 
         let color = document.getElementById("color");
