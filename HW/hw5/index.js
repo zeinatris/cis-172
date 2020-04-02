@@ -2,7 +2,7 @@ let ErrorHandler = {
 
     init: function () {
         let happyMessage = "";
-        let errorMessage = document.getElementById("e");
+        let errorMessage = '<span style="color:red;">Sorry, an error occurred!</span>'
 
         let error = document.getElementById("error");
         error.addEventListener("click", ErrorHandler.checkDate);
