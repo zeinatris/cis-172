@@ -15,18 +15,22 @@ let PageManager = {
         Color.addEventListener('change', PageManager.colorChange);
     },
 
-    firstFunction: function ()
+    firstFunction: function (event)
     {
+        console.log("event", event);
+        let text = document.getElementById("a1")
+        let newText = text.value;
         let h = document.getElementById("h");
-        let a1 = document.getElementById("a1");
-        PageManager.h = a1.value;
+        h.innerHTML = newText;
     },
 
-    secondFunction: function ()
+    secondFunction: function (event)
     {
+        console.log("myDiv", event);
+        let a2 = document.getElementById("a2")
+        let newText = a2.value;
         let myDiv = document.getElementById("myDiv");
-        let a2 = document.getElementById("a2");
-        PageManager.btn2 = myDiv + a2.value;
+        myDiv.innerHTML = newText;
     },
 
     thirdFunction : function three()
