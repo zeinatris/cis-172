@@ -1,3 +1,7 @@
+/**
+ * Homework 4
+ * @grade		10 / 10
+ */
 let PageManager = {
 
     init: function() {
