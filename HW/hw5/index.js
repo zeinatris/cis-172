@@ -1,3 +1,7 @@
+/**
+ * Homework 5
+ * @grade		8 / 10
+ */
 let ErrorHandler = {
 
     init: function () {
@@ -13,7 +17,7 @@ let ErrorHandler = {
         let d = new Date();
         let error = document.getElementById("error");
 
-        if (d === 'Tuesday' || d === 'Thursday') {
+        if (d.getDay() === 2 || d.getDay() === 4) {
             ErrorHandler.happyMessage = "Welcome to class!";
             if(d %2 == 0){
                 myDiv.innerHTML = ErrorHandler.happyMessage + "myDiv";
@@ -29,7 +33,8 @@ let ErrorHandler = {
     newDate: function () {
         let d = {
             newDate: new Date()
-        }
+        };
+        
         try {
             console.log("Sorry, an error occurred!");
         } catch (err) {
