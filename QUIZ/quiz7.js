@@ -28,7 +28,7 @@ div.show()
 // 2 pts
 // 5. Assume the user is done using the modal in the div above.
 //      Use a jQuery method to slowly fade the div out over a time span of 4 seconds.
-div.fadeOut("slow")
+div.fadeOut(4)
 
 // 3 pts
 // 6. List three more methods below that are available via the jQuery API.
