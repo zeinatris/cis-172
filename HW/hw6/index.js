@@ -1,21 +1,29 @@
+let johnDiv = $( '#JohnCena' );
 let pageHandler = {
-    pageDiv: null,
+    pageDiv: document.getElementById("newDiv"),
+    showBtn: document.getElementById("showBtn"),
+    showBtn: addEventListener("click", johnDiv),
+    jQuery: document.getElementById("jQueryBtn"),
 
     init: function(){
-        if (window.jQuery) {
-            // jQuery is loaded
-            console.log("Page has loaded!");
-        } else {
-            console.log("Doesn't Work");
-        }
-        try{
 
+        if (window.jQuery){
+            try{
+                console.log("The page has loaded!");
+            }
+            catch(e){
+                console.error("Error! Please refresh the page.", e);
+                throw new Error(pageHandler.init);
+            }
         }
-        catch(e){
-            console.error("Error please re load the page", e);
-            throw new Error(pageHandler.init);
+        if (cenaDiv) {
+            cenaDiv = $('#myDiv');
+            $('#JohnCena').hide();
         }
+        if (pageHandler.showBtn){
+            $('#JohnCena').show();
+        }
+        $('#jQueryBtn').on( "click",pageHandler.jQuery );
     }
-
 }
 window.onload = pageHandler.init;
