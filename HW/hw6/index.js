@@ -1,9 +1,9 @@
 let johnDiv = $( '#JohnCena' );
 let pageHandler = {
-    pageDiv: document.getElementById("newDiv"),
-    showBtn: document.getElementById("showBtn"),
+    pageDiv: document.getElementById("myDiv"),
+    showBtn: document.getElementById("show"),
     showBtn: addEventListener("click", johnDiv),
-    jQuery: document.getElementById("jQueryBtn"),
+    jQuery: document.getElementById("jq"),
 
     init: function(){
 
@@ -23,7 +23,7 @@ let pageHandler = {
         if (pageHandler.showBtn){
             $('#JohnCena').show();
         }
-        $('#jQueryBtn').on( "click",pageHandler.jQuery );
+        $('#jq').on( "click",pageHandler.jQuery );
     }
 }
 window.onload = pageHandler.init;
