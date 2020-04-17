@@ -19,7 +19,7 @@
 // 2 pts
 // 3. Use jQuery to select the following div below and store it in a variable called div.
 // <div id="newUserSignUpModal" style="display:none;" ><p>There is form data in this div.</p></div>
-let div = $( '#myDiv' );
+let div = $( '#newUserSignUpModal' );
 
 // 1 pt
 // 4. The div selected above is currently hidden, use a jQuery method on this div variable to make it visible.
