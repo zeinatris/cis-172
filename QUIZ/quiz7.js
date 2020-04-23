@@ -5,7 +5,7 @@
  * @author      Chad Banks <crbanks1@hfcc.edu>
  * @author      Zein Atris <zhatris@hawkmail.hfcc.edu>
  * @date        2020.04.16
- * @grade
+ * @grade       9.5 / 10
  */
 
 // 1 pt
@@ -25,10 +25,10 @@ let div = $( '#newUserSignUpModal' );
 // 4. The div selected above is currently hidden, use a jQuery method on this div variable to make it visible.
 $('#div').hide()
 
-// 2 pts
+// 1.5 / 2 pts
 // 5. Assume the user is done using the modal in the div above.
 //      Use a jQuery method to slowly fade the div out over a time span of 4 seconds.
-$('#div').fadeOut(4)
+$('#div').fadeOut(4000)
 
 // 3 pts
 // 6. List three more methods below that are available via the jQuery API.
