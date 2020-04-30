@@ -5,7 +5,7 @@
 * @author      Chad Banks <crbanks1@hfcc.edu>
 * @author      Zein Atris <zhatris@hawkmail.hfcc.edu>
 * @date        2020.04.23
-* @grade
+* @grade       9 / 10
 */
 
 // 2 pts
@@ -13,16 +13,14 @@
 // <div data-xp="95" ></div>
 let xp = document.getAttribute('data-xp');
 
-// 3 pts
+// 2 / 3 pts
 // 2. Create a localStorage key called plyrXp and store the value from the xp variable created above in it.
-let plyrXp = localStorage.getItem('xp');
+localStorage.setItem('plyrXp', xp);
 
-// 2 pts
+// 1 / 2 pts
 // 3. Pull the value for plyrXp out of localStorage, and store it in a variable called loadedXp.
-$('#data-xp').value = plyrXp;
+let loadedXp = localStorage.getItem('plyrXp');
 
-let loadedXp = document.getElementById('95');
-loadedXp.addEventListener('95',plyrXp).value;
 // 3 pts
 // 4. Create a cookie called "email" and store the string "crbanks1@hfcc.edu" in it, this cookie should expire in 30 days.
 let email = cookieManager.getCookies();
