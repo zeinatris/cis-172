@@ -3,7 +3,7 @@
  *
  * @category    Quiz 9
  * @author      Chad Banks <crbanks1@hfcc.edu>
- * @author      YOUR NAME <YOUREMAIL@hawkmail.hfcc.edu>
+ * @author      Zein Atris <zhatris@hawkmail.hfcc.edu>
  * @date        2020.04.30
  * @grade
  */
