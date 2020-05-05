@@ -5,7 +5,7 @@
  * @author      Chad Banks <crbanks1@hfcc.edu>
  * @author      Zein Atris <zhatris@hawkmail.hfcc.edu>
  * @date        2020.04.30
- * @grade
+ * @grade       11 / 10
  */
 
 
@@ -23,9 +23,9 @@ let cartDate = {
 //              https://example.com/api/v2/cart
 let cartDatabaseUrl = "https://example.com/api/v2/cart";
 
-// 3 pts
+// 2 / 3 pts
 // 3. Send an ajax POST request to the url in the cartDatabaseUrl variable, and pass along the cartData object
-$.ajax( {method: "POST", url: url, cartData: data, complete: cartDate.getResponse} );
+$.ajax( {method: "POST", url: cartDatabaseUrl, cartData: data, complete: cartDate.getResponse} );
 
 // 2 pts
 // 4. Assume the api responded and the resulting response string is stored in a variable called responseString.
