@@ -34,7 +34,7 @@ validateAndSaveEmail.onblur = function () { // Technically this works, but the f
 //          If the value does not contain an @ or . then throw an error.
 //          The function does not need to save the email or do anything else.
     if (!this.value.includes('@')){
-        alert("error"); // better error message for the user?
+        alert("error"); // better error message.txt for the user?
     };
 
     if (!this.value.includes('.')){// forgot .
@@ -63,10 +63,10 @@ function onFavCoinChange() {
 
 // 3 pts
 // 4. Create a function called onFavCoinChange that checks the value of the select drop down.
-//          If the value is Bitcoin, console.log this message "The coin to rule them all!"
-//          If the value is Ethereum, console.log this message "Solidity smart contracts for the win!"
-//          If the value is XRP, console.log this message "Bold move cotton!"
-//          If the value is Other, console.log this message "You may be making a huge mistake..."
+//          If the value is Bitcoin, console.log this message.txt "The coin to rule them all!"
+//          If the value is Ethereum, console.log this message.txt "Solidity smart contracts for the win!"
+//          If the value is XRP, console.log this message.txt "Bold move cotton!"
+//          If the value is Other, console.log this message.txt "You may be making a huge mistake..."
 
     if (favoriteCoin === "Bitcoin") {
         console.log("The coin to rule them all!")

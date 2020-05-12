@@ -1,6 +1,6 @@
 let handNewButton = [];
 
-let messageBtn = document.getElementById("message");
+let messageBtn = document.getElementById("message.txt");
 let commentBtn = document.getElementById("comments");
 function submitHandler () {
     let submit =

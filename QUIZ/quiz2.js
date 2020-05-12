@@ -19,7 +19,7 @@ function multiply(price, shipping) {
 //      Add an onclick event to this button that calls the function above, passing in 4 and 7.
 
 
-// 3. Write a function that displays a welcome message to the user in the dev console or anywhere on the page.
+// 3. Write a function that displays a welcome message.txt to the user in the dev console or anywhere on the page.
 function welcome ()
 {
     console.log("Welcome");

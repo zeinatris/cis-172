@@ -4,7 +4,7 @@
 let tweetCollection = [];
 
 let idBtn = document.getElementById("id");
-let messageBtn = document.getElementById("message");
+let messageBtn = document.getElementById("message.txt");
 let likeBtn = document.getElementById("likes");
 let shareBtn = document.getElementById("shares");
 let commentBtn = document.getElementById("comments");
