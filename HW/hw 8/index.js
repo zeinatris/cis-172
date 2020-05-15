@@ -1,3 +1,5 @@
+// Grade: 10 / 10
+
 let hw ={
     init:function ()
     {
